@@ -1,0 +1,5 @@
+// Download all the images in images.txt file
+wget -i images.txt
+
+// List all the file sizes of the items in the folder and export them in a txt file that sits in the parent folder
+ls -l > ../before.txt
